@@ -1,9 +1,7 @@
 ## QA_System
-    自动问答系统
-    问题分类部分
-
-    文件的解释
-
+    自动问答系统 = 问题分类部分 、 关键词提取模块 、 关键词扩展模块 、 答案获取模块
+    NOTE：
+    
     ┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
     │              │                    ├─── keyword           问题分类所需的特征值的集
     │              │                    ├─── dict_nlpir1.txt   pynlpir分词用的词库
