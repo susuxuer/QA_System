@@ -4,7 +4,7 @@
 
     文件的解释
 
-   ─┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
+    ┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
     │              │                    ├─── keyword           问题分类所需的特征值的集
     │              │                    ├─── dict_nlpir1.txt   pynlpir分词用的词库
     │              │                    ├─── test_question     测试集
