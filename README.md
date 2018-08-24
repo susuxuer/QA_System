@@ -1,10 +1,10 @@
-# QA_System
-自动问答系统
-问题分类部分
+## QA_System
+    自动问答系统
+    问题分类部分
 
-文件的解释
+    文件的解释
 
- ───┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
+    ───┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
     │              │                    ├─── keyword           问题分类所需的特征值的集
     │              │                    ├─── dict_nlpir1.txt   pynlpir分词用的词库
     │              │                    ├─── test_question     测试集
@@ -70,6 +70,6 @@
                    └── test.py
 
 
-运行方式：
-  配置好：1.libsvm 2.NLTK 3.结巴分词 4.tornado 5.numpy 6.requests
-  运行 python main.py
+    运行方式：
+    配置好：1.libsvm 2.NLTK 3.结巴分词 4.tornado 5.numpy 6.requests
+    运行 python main.py
