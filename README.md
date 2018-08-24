@@ -4,7 +4,7 @@
 
     文件的解释
 
-    ───┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
+   ─┬─ data ───────┬── classifydata ────┬─── filter.txt        judge_code.py识别字符时，无视掉的部分
     │              │                    ├─── keyword           问题分类所需的特征值的集
     │              │                    ├─── dict_nlpir1.txt   pynlpir分词用的词库
     │              │                    ├─── test_question     测试集
@@ -26,7 +26,7 @@
     │              │ 
     │              ├─ origin
     │              │
-    │              │  origin: 这个是创建C语言知识图谱的原始数据，现在不符合格式要求，可以忽略不考虑。
+    │              │  origin: 这个是创建C语言知识图谱的原始数据
     │              │  
     │              ├─ stanford
     │              │  
@@ -34,9 +34,9 @@
     │              │
     │              ├─ testout
     │              │
-    │              │  test_out: 用来做参考的输出数据，对程序没影响
+    │              │  test_out: 用来做参考的输出数据
     │              │
-    │              └─ webCrawler 网络爬虫获得的训练数据，不详细解释了
+    │              └─ webCrawler 网络爬虫获得的训练数据
     │
     │
     └─ src ────────┬── KnowledgeGraph ─┬─── auxiliaryFunct.py
